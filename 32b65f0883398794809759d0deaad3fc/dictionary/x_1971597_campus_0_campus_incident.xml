@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="144b6ee083b18b94809759d0deaad3e6" extends="task" label="Campus Incident" max_length="40" name="x_1971597_campus_0_campus_incident" type="collection">
+        <element choice="3" label="Incident Type" max_length="40" name="incident_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Request" sequence="200" value="request"/>
+                <element inactive_on_update="false" label="Maintenance" sequence="400" value="maintenance"/>
+                <element inactive_on_update="false" label="Emergency" sequence="300" value="emergency"/>
+                <element inactive_on_update="false" label="Complaint" sequence="100" value="complaint"/>
+            </choice>
+        </element>
+        <element label="Student Email" max_length="40" name="student_email" type="string"/>
+        <element label="Registration Number" max_length="40" name="registration_number" type="string"/>
+        <element label="Student Name" max_length="40" name="student_name" type="string"/>
+        <element label="Room" max_length="32" name="room" reference="x_1971597_campus_0_room" type="reference"/>
+        <element label="Building" max_length="32" name="building" reference="x_1971597_campus_0_building" type="reference"/>
+        <element label="Department" max_length="32" name="department" reference="x_1971597_campus_0_department" type="reference"/>
+        <element choice="1" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Transport" sequence="700" value="transport"/>
+                <element inactive_on_update="false" label="Library" sequence="600" value="library"/>
+                <element inactive_on_update="false" label="Electrical" sequence="100" value="electrical"/>
+                <element inactive_on_update="false" label="Classroom" sequence="500" value="classroom"/>
+                <element inactive_on_update="false" label="Other" sequence="800" value="other"/>
+                <element inactive_on_update="false" label="Plumbing" sequence="200" value="plumbing"/>
+                <element inactive_on_update="false" label="Internet" sequence="300" value="internet"/>
+                <element inactive_on_update="false" label="Hostel" sequence="400" value="hostel"/>
+            </choice>
+        </element>
+        <element label="Escalated" max_length="40" name="escalated" type="boolean"/>
+    </element>
+</database>

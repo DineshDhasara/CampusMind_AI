@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_trigger_template">
+    <sys_hub_trigger_template action="INSERT_OR_UPDATE">
+        <accessible_from>public</accessible_from>
+        <active>true</active>
+        <annotation/>
+        <attributes/>
+        <category display_value="Record">8886dd64c3d322002841b63b12d3aed4</category>
+        <comment/>
+        <description/>
+        <designer_source display_value="Workflow Studio">a1fb8738ff0032108282ffffffffff37</designer_source>
+        <name>Campus Incident Created where (Category is Electrical)</name>
+        <order>0</order>
+        <published_trigger_id>8f35bfe856f98b9407a99314c117ccd8</published_trigger_id>
+        <source_trigger/>
+        <state>published</state>
+        <sys_class_name>sys_hub_trigger_template</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 20:10:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0335bfe883f98b94809759d0deaad3d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Campus Incident Created where (Category is Electrical)</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sys_hub_trigger_template_0335bfe883f98b94809759d0deaad3d9</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 20:10:35</sys_updated_on>
+        <template_properties>{"showAdvancedProperties":"true","showDefinitionConditions":"true","canAddAdditionalConditions":"true"}</template_properties>
+        <trigger_category/>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_values>[{"name":"table","label":"Table","type":"table_name","displayValue":"Campus Incident","value":"x_1971597_campus_0_campus_incident","readOnly":false,"extendable":false},{"name":"condition","label":"Condition","type":"conditions","displayValue":"","value":"category=electrical","readOnly":false,"extendable":false},{"name":"run_on_extended","label":"Run On Extended","type":"choice","displayValue":"","value":"false","readOnly":false,"extendable":false},{"name":"run_flow_in","label":"Run Flow In","type":"choice","displayValue":"","value":"any","readOnly":false,"extendable":false},{"name":"run_when_user_list","label":"Run When User List","type":"glide_list","displayValue":"","value":"","readOnly":false,"extendable":false},{"name":"run_when_setting","label":"Run When Setting","type":"choice","displayValue":"","value":"both","readOnly":false,"extendable":false},{"name":"run_when_user_setting","label":"Run When User Setting","type":"choice","displayValue":"","value":"any","readOnly":false,"extendable":false}]</trigger_values>
+        <type>record_create</type>
+    </sys_hub_trigger_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=0335bfe883f98b94809759d0deaad3d9"/>
+</record_update>

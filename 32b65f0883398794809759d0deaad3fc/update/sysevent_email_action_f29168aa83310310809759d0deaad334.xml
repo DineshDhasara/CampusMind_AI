@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_1971597_campus_0_campus_incident</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <default_digest>false</default_digest>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html/>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr>
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digest_type>single</digest_type>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>x_1971597_campus_0.test.event</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Hello,</p>
+<p>The following Campus Incident has exceeded its SLA.</p>
+<p>Incident Number: ${number}<br>Category: ${category}<br>Priority: ${priority}<br>State: ${state}</p>
+<p>Description:<br>${description}</p>
+<p>The incident has been automatically escalated.</p>
+<p>Regards,<br>CampusMind AI</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>CampusMind SLA Breached</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by,assigned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>Campus Incident ${number} SLA Breached</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-07-03 09:59:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f29168aa83310310809759d0deaad334</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>CampusMind SLA Breached</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sysevent_email_action_f29168aa83310310809759d0deaad334</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-07-04 18:38:32</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>f29168aa83310310809759d0deaad334</id>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-07-04 18:38:31</sys_created_on>
+        <sys_id>3a43ab768339c310809759d0deaad3f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-07-04 18:38:31</sys_updated_on>
+        <table>sysevent_email_action</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>

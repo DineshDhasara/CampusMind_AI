@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes/>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description/>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>auto_assign_incident</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Auto Assign Incident</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 08:01:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4fa4801883bd8794809759d0deaad310</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Auto Assign Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sys_hub_flow_4fa4801883bd8794809759d0deaad310</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 08:01:13</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=4fa4801883bd8794809759d0deaad310"/>
+    <sys_variable_value action="DELETE" query="document_key=4fa4801883bd8794809759d0deaad310"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=4fa4801883bd8794809759d0deaad310"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=4fa4801883bd8794809759d0deaad310^sys_idNOT IN8ba4801883bd8794809759d0deaad315"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>4fa4801883bd8794809759d0deaad310</id>
+        <name>Auto Assign Incident</name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 08:01:04</sys_created_on>
+        <sys_id>8ba4801883bd8794809759d0deaad315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 08:01:04</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=8ba4801883bd8794809759d0deaad315"/>
+    <sys_hub_flow_input action="DELETE" query="model=4fa4801883bd8794809759d0deaad310^sys_idNOT IN53a4801883bd8794809759d0deaad39d,aba4801883bd8794809759d0deaad3e5"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Auto Assign Incident">4fa4801883bd8794809759d0deaad310</model>
+        <model_id>4fa4801883bd8794809759d0deaad310</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4fa4801883bd8794809759d0deaad310</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 08:01:05</sys_created_on>
+        <sys_id>53a4801883bd8794809759d0deaad39d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 08:01:05</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=53a4801883bd8794809759d0deaad39d"/>
+    <sys_hub_flow_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Auto Assign Incident">4fa4801883bd8794809759d0deaad310</model>
+        <model_id>4fa4801883bd8794809759d0deaad310</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_4fa4801883bd8794809759d0deaad310</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 08:01:06</sys_created_on>
+        <sys_id>aba4801883bd8794809759d0deaad3e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 08:01:06</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=aba4801883bd8794809759d0deaad3e5"/>
+    <sys_hub_flow_output action="DELETE" query="model=4fa4801883bd8794809759d0deaad310"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=4fa4801883bd8794809759d0deaad310"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=4fa4801883bd8794809759d0deaad310^sys_idNOT IN80b4c01883bd8794809759d0deaad37d"/>
+    <sys_hub_trigger_instance_v2 action="DELETE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Auto Assign Incident">4fa4801883bd8794809759d0deaad310</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 08:01:08</sys_created_on>
+        <sys_id>80b4c01883bd8794809759d0deaad37d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 08:01:09</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VY32+rNhT+VxBPm9QrQUhC6Ntd0mmVunZLcreHqrOMsRt0ickFQ5tV/d9nYyCEXw1JuqbtS6QcG/s7n893zrFvn1QWuPf3OLikIYMU4dk6vHTUcxUOLYiGI8s0+4am65qhY8M20LBvD6BlQUM9Uz1oY49PnUPbw/y/SxkOKPTm6xXmZibMgMKlGFtC6kDmB2v1nAURPlNJ4C/neLnyIOOTCfRCbvQDBwfquX6mJp+la/DPY+hF4v8j0C1TH1gmQHC5ikKgAZci18GU8VmOG/L11n+lk7llBQO+EBOLPuX4rlz6XQ6jhes5Aabq+e0dxy/8RgRBq4c1ZOhGr6dpvVFft4eGrfccA2JNq/G7hJXVuC9sV8XPlGs5sPEYPzJMHezkZFQoCzB0bqi3zmcsuEfSkSV8DN1/+bYjTcwjmDuFUg7yvyDlR5rJBDI44ysjFgU448N3EQ4lHQ4mMPLYuGiTE25WzPWp/ER6Lb/2vWhJryUbar5A4TiikIPAK+GnQJ66QWYL/2GaofzVpQkl6aDnI+jl/yDj4WpHTOB5Uonr8RMFkunQj4LE5enF+GY6AX9/nY9/u5iC6cVsPr0czy8m6vOZGq7DsQfDcIOS0wN+RGIPiTlFB6SD4hMUuCv2FTE3ziL1+ewYuhn71HETJivaQdlQWMRUCLJCcGQstglK0/IwRYVdM1n9c/FnVT7S2F1BwyGEDoYNCrJJAwM18FgNGUUljYsDRVfbtJRadhFTX9Pek5zSxLqvmpa+g71JMdZkhPMMu4qYoPgBUhYC5gPoOKBwKmIqx9RdXtLb19RYEFG+FcgDoqq05Ajyw7pyQ+76Lc8tM/wjkqfOkzPJWE+giePOYnAaUcXnccR/FBQFnHSmZCIll0t4n/JA/siElJCdRnsMAwCWgNMGFpENthgHpjWy9GGTkEy0xWciZRFWqnpXtYMlXIltWwE/P4vowR5GrCAd8i0s/vvdDUOX3hcOqcBUr8BUEhIVovItuSCV7FTk/uFpM9aKfB/q7g7J4tW4jksRWsrmbXHaPcfrOiE2Jj3NFDRzBdpE10xtAIljaBrqtSqw0QVWkuRWrs+Mr5Lnj5Pln3Kn29guH1TmkNCS10Us8bbS0nV6z3XF5nSglWqe0ano5cEtzZPdY/zIrSd0YlGRnP1r36uXPeL5DzwvHlzybIi+3wd+RJ1yOhc7KC5VNjOUn9KT+fmUk3kr7uNWQeIHuJ287RmnTlkB7ZvUvE1QZykG0nW12klj97pmEN22cB9rvJwZvJLZA8uyEewRYg5N3NMbJVYL8WPVsxfUHteli6YCUhv8cZ1mOlS1twd4UG1LA7m2ssmxz1fDHhaYAu52ADxRpSql7N5zHZyNHZZZKlvFm4v2MR4WychCA900kcnzMk8tpI9tqPd73G9zaIwGL3neBpXVsFFMNlfS9L88kYjKJLA1JJ1vcugEnks+i3xCzJgowfv0gV+KjSDlt7VkCSjRFhoaESZKkjf9QLn26ZfLzTxlhnkPkDzonWR7sxP2w7vCLSp3oVEoRXmvPDaCPzKRts8Wlc6a7/8Lt2/tL+6pDYd70g9P3Z15k768lGni7eOpeYva55D2eKfC/dHAIkZ90SVWe75s9u/jdPY7Zu64sQbUddC75rG4Nh3mHXW5J98jZEqBmC5tvHCb+LykHHSDydTe+Di3D9hP2rUl7f0RWzcBHgOfFIvlxFf4gML3VFyipOCxo9hrhS0wPy2P34L5/ooAc7JVsqMXR25AqqzmOn/HnHby4ciMyreOSkfHzUp6rzxJyio4364PK+WO1pfSGnq7t1nYMeFgYDS8bVjlZ9M6kC/48HEars5JN67L4a0NRrd1y2vWthiF8NgOpx07qg/s9as9+tageDfN0N1/qNk5JVoqAAA=</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=4fa4801883bd8794809759d0deaad310"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=4fa4801883bd8794809759d0deaad310"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=4fa4801883bd8794809759d0deaad310"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=4fa4801883bd8794809759d0deaad310"/>
+    <sys_hub_flow_variable action="DELETE" query="model=4fa4801883bd8794809759d0deaad310"/>
+    <sys_documentation action="DELETE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4fa4801883bd8794809759d0deaad310</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 08:01:06</sys_created_on>
+        <sys_id>27a4801883bd8794809759d0deaad3e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 08:01:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_4fa4801883bd8794809759d0deaad310</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 08:01:06</sys_created_on>
+        <sys_id>2ba4801883bd8794809759d0deaad3e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 08:01:06</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_4fa4801883bd8794809759d0deaad310"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_4fa4801883bd8794809759d0deaad310"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=4fa4801883bd8794809759d0deaad310"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=4fa4801883bd8794809759d0deaad310"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</application>
+        <file_path/>
+        <instance_id>1f7f6011eb2047d4e483f459bad0cd4e</instance_id>
+        <instance_name>dev393569</instance_name>
+        <name>sys_hub_flow_4fa4801883bd8794809759d0deaad310</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_flow"&gt;&lt;sys_hub_flow action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;active&gt;false&lt;/active&gt;&lt;allow_high_security_roles&gt;false&lt;/allow_high_security_roles&gt;&lt;annotation/&gt;&lt;attributes/&gt;&lt;authored_on_release_version&gt;29000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category/&gt;&lt;compiler_build/&gt;&lt;copied_from&gt;049a0e497743011031e3b3c64b5a9996&lt;/copied_from&gt;&lt;copied_from_name&gt;FlowTemplate: Record Trigger&lt;/copied_from_name&gt;&lt;description/&gt;&lt;display_name_after_preview/&gt;&lt;flow_priority/&gt;&lt;generation_source/&gt;&lt;internal_name&gt;auto_assign_incident&lt;/internal_name&gt;&lt;label_cache&gt;[]&lt;/label_cache&gt;&lt;latest_snapshot/&gt;&lt;master_snapshot/&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Auto Assign Incident&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;remote_trigger_id/&gt;&lt;run_as&gt;user&lt;/run_as&gt;&lt;run_with_roles/&gt;&lt;sc_callable&gt;false&lt;/sc_callable&gt;&lt;show_draft_actions&gt;false&lt;/show_draft_actions&gt;&lt;show_triggered_flows&gt;false&lt;/show_triggered_flows&gt;&lt;status&gt;draft&lt;/status&gt;&lt;substatus/&gt;&lt;sys_class_name&gt;sys_hub_flow&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dinesh_dhasara&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-26 08:01:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4fa4801883bd8794809759d0deaad310&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Auto Assign Incident&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CampusMind AI" source="x_1971597_campus_0"&gt;32b65f0883398794809759d0deaad3fc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CampusMind AI"&gt;32b65f0883398794809759d0deaad3fc&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_flow_4fa4801883bd8794809759d0deaad310&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;dinesh_dhasara&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-26 08:01:13&lt;/sys_updated_on&gt;&lt;type&gt;flow&lt;/type&gt;&lt;updation_source/&gt;&lt;version&gt;2&lt;/version&gt;&lt;version_record/&gt;&lt;/sys_hub_flow&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_hub_flow_stage action="delete_multiple" query="flow=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_flow_cat_variable_model action="delete_multiple" query="id=4fa4801883bd8794809759d0deaad310^sys_idNOT IN8ba4801883bd8794809759d0deaad315"/&gt;&lt;sys_flow_cat_variable_model action="INSERT_OR_UPDATE"&gt;&lt;id&gt;4fa4801883bd8794809759d0deaad310&lt;/id&gt;&lt;name&gt;Auto Assign Incident&lt;/name&gt;&lt;sys_created_by&gt;dinesh_dhasara&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-26 08:01:04&lt;/sys_created_on&gt;&lt;sys_id&gt;8ba4801883bd8794809759d0deaad315&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;dinesh_dhasara&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-26 08:01:04&lt;/sys_updated_on&gt;&lt;/sys_flow_cat_variable_model&gt;&lt;sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=8ba4801883bd8794809759d0deaad315"/&gt;&lt;sys_hub_flow_input action="delete_multiple" query="model=4fa4801883bd8794809759d0deaad310^sys_idNOT IN53a4801883bd8794809759d0deaad39d,aba4801883bd8794809759d0deaad3e5"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent&gt;table_name&lt;/dependent&gt;&lt;dependent_on_field&gt;table_name&lt;/dependent_on_field&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;current&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;document_id&lt;/internal_type&gt;&lt;label&gt;Record&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Auto Assign Incident"&gt;4fa4801883bd8794809759d0deaad310&lt;/model&gt;&lt;model_id&gt;4fa4801883bd8794809759d0deaad310&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_4fa4801883bd8794809759d0deaad310&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;100&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dinesh_dhasara&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-26 08:01:05&lt;/sys_created_on&gt;&lt;sys_id&gt;53a4801883bd8794809759d0deaad39d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CampusMind AI"&gt;32b65f0883398794809759d0deaad3fc&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;dinesh_dhasara&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-26 08:01:05&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;true&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=53a4801883bd8794809759d0deaad39d"/&gt;&lt;sys_hub_flow_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;table_name&lt;/internal_type&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;200&lt;/max_length&gt;&lt;model display_value="Auto Assign Incident"&gt;4fa4801883bd8794809759d0deaad310&lt;/model&gt;&lt;model_id&gt;4fa4801883bd8794809759d0deaad310&lt;/model_id&gt;&lt;model_table&gt;sys_hub_flow&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_flow_input_4fa4801883bd8794809759d0deaad310&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;101&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_flow_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dinesh_dhasara&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-26 08:01:06&lt;/sys_created_on&gt;&lt;sys_id&gt;aba4801883bd8794809759d0deaad3e5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CampusMind AI"&gt;32b65f0883398794809759d0deaad3fc&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;dinesh_dhasara&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-26 08:01:06&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_flow_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=aba4801883bd8794809759d0deaad3e5"/&gt;&lt;sys_hub_flow_output action="delete_multiple" query="model=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_hub_alias_mapping action="delete_multiple" query="source_id=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=4fa4801883bd8794809759d0deaad310^sys_idNOT IN80b4c01883bd8794809759d0deaad37d"/&gt;&lt;sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE"&gt;&lt;comment/&gt;&lt;display_text/&gt;&lt;flow display_value="Auto Assign Incident"&gt;4fa4801883bd8794809759d0deaad310&lt;/flow&gt;&lt;generation_source/&gt;&lt;name&gt;Created&lt;/name&gt;&lt;published_version/&gt;&lt;remote_sys_id/&gt;&lt;sys_created_by&gt;dinesh_dhasara&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-26 08:01:08&lt;/sys_created_on&gt;&lt;sys_id&gt;80b4c01883bd8794809759d0deaad37d&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope/&gt;&lt;sys_updated_by&gt;dinesh_dhasara&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-26 08:01:09&lt;/sys_updated_on&gt;&lt;trigger_definition display_value="Created"&gt;798916a0c31322002841b63b12d3ae7c&lt;/trigger_definition&gt;&lt;trigger_inputs&gt;H4sIAAAAAAAA/+VY32+rNhT+VxBPm9QrQUhC6Ntd0mmVunZLcreHqrOMsRt0ickFQ5tV/d9nYyCEXw1JuqbtS6QcG/s7n893zrFvn1QWuPf3OLikIYMU4dk6vHTUcxUOLYiGI8s0+4am65qhY8M20LBvD6BlQUM9Uz1oY49PnUPbw/y/SxkOKPTm6xXmZibMgMKlGFtC6kDmB2v1nAURPlNJ4C/neLnyIOOTCfRCbvQDBwfquX6mJp+la/DPY+hF4v8j0C1TH1gmQHC5ikKgAZci18GU8VmOG/L11n+lk7llBQO+EBOLPuX4rlz6XQ6jhes5Aabq+e0dxy/8RgRBq4c1ZOhGr6dpvVFft4eGrfccA2JNq/G7hJXVuC9sV8XPlGs5sPEYPzJMHezkZFQoCzB0bqi3zmcsuEfSkSV8DN1/+bYjTcwjmDuFUg7yvyDlR5rJBDI44ysjFgU448N3EQ4lHQ4mMPLYuGiTE25WzPWp/ER6Lb/2vWhJryUbar5A4TiikIPAK+GnQJ66QWYL/2GaofzVpQkl6aDnI+jl/yDj4WpHTOB5Uonr8RMFkunQj4LE5enF+GY6AX9/nY9/u5iC6cVsPr0czy8m6vOZGq7DsQfDcIOS0wN+RGIPiTlFB6SD4hMUuCv2FTE3ziL1+ewYuhn71HETJivaQdlQWMRUCLJCcGQstglK0/IwRYVdM1n9c/FnVT7S2F1BwyGEDoYNCrJJAwM18FgNGUUljYsDRVfbtJRadhFTX9Pek5zSxLqvmpa+g71JMdZkhPMMu4qYoPgBUhYC5gPoOKBwKmIqx9RdXtLb19RYEFG+FcgDoqq05Ajyw7pyQ+76Lc8tM/wjkqfOkzPJWE+giePOYnAaUcXnccR/FBQFnHSmZCIll0t4n/JA/siElJCdRnsMAwCWgNMGFpENthgHpjWy9GGTkEy0xWciZRFWqnpXtYMlXIltWwE/P4vowR5GrCAd8i0s/vvdDUOX3hcOqcBUr8BUEhIVovItuSCV7FTk/uFpM9aKfB/q7g7J4tW4jksRWsrmbXHaPcfrOiE2Jj3NFDRzBdpE10xtAIljaBrqtSqw0QVWkuRWrs+Mr5Lnj5Pln3Kn29guH1TmkNCS10Us8bbS0nV6z3XF5nSglWqe0ano5cEtzZPdY/zIrSd0YlGRnP1r36uXPeL5DzwvHlzybIi+3wd+RJ1yOhc7KC5VNjOUn9KT+fmUk3kr7uNWQeIHuJ287RmnTlkB7ZvUvE1QZykG0nW12klj97pmEN22cB9rvJwZvJLZA8uyEewRYg5N3NMbJVYL8WPVsxfUHteli6YCUhv8cZ1mOlS1twd4UG1LA7m2ssmxz1fDHhaYAu52ADxRpSql7N5zHZyNHZZZKlvFm4v2MR4WychCA900kcnzMk8tpI9tqPd73G9zaIwGL3neBpXVsFFMNlfS9L88kYjKJLA1JJ1vcugEnks+i3xCzJgowfv0gV+KjSDlt7VkCSjRFhoaESZKkjf9QLn26ZfLzTxlhnkPkDzonWR7sxP2w7vCLSp3oVEoRXmvPDaCPzKRts8Wlc6a7/8Lt2/tL+6pDYd70g9P3Z15k768lGni7eOpeYva55D2eKfC/dHAIkZ90SVWe75s9u/jdPY7Zu64sQbUddC75rG4Nh3mHXW5J98jZEqBmC5tvHCb+LykHHSDydTe+Di3D9hP2rUl7f0RWzcBHgOfFIvlxFf4gML3VFyipOCxo9hrhS0wPy2P34L5/ooAc7JVsqMXR25AqqzmOn/HnHby4ciMyreOSkfHzUp6rzxJyio4364PK+WO1pfSGnq7t1nYMeFgYDS8bVjlZ9M6kC/48HEars5JN67L4a0NRrd1y2vWthiF8NgOpx07qg/s9as9+tageDfN0N1/qNk5JVoqAAA=&lt;/trigger_inputs&gt;&lt;trigger_outputs/&gt;&lt;trigger_type&gt;record_create&lt;/trigger_type&gt;&lt;updation_source/&gt;&lt;/sys_hub_trigger_instance_v2&gt;&lt;sys_hub_action_instance_v2 action="delete_multiple" query="flow=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_hub_flow_variable action="delete_multiple" query="model=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;table_name&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Table Name&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_4fa4801883bd8794809759d0deaad310&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dinesh_dhasara&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-26 08:01:06&lt;/sys_created_on&gt;&lt;sys_id&gt;27a4801883bd8794809759d0deaad3e9&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="CampusMind AI" source="x_1971597_campus_0"&gt;32b65f0883398794809759d0deaad3fc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CampusMind AI"&gt;32b65f0883398794809759d0deaad3fc&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;dinesh_dhasara&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-26 08:01:06&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;current&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Record&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_flow_input_4fa4801883bd8794809759d0deaad310&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dinesh_dhasara&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-06-26 08:01:06&lt;/sys_created_on&gt;&lt;sys_id&gt;2ba4801883bd8794809759d0deaad3e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="CampusMind AI" source="x_1971597_campus_0"&gt;32b65f0883398794809759d0deaad3fc&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CampusMind AI"&gt;32b65f0883398794809759d0deaad3fc&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;dinesh_dhasara&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-06-26 08:01:06&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_flow_trigger_plan action="delete_multiple" query="plan_id=4fa4801883bd8794809759d0deaad310"/&gt;&lt;sys_flow_subflow_plan action="delete_multiple" query="plan_id=4fa4801883bd8794809759d0deaad310"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1777849125</payload_hash>
+        <record_name>Auto Assign Incident</record_name>
+        <reverted_from/>
+        <source>72b69f0883398794809759d0deaad39b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 08:01:14</sys_created_on>
+        <sys_id>edb4041883bd8794809759d0deaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f02f27fe70000001</sys_recorded_at>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 08:01:14</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>adb404182dbd8794e81e1dc535d846d3</update_guid>
+        <update_guid_history>adb404182dbd8794e81e1dc535d846d3:-1777849125,48b4c018b7bd879436b05e42b9e4c999:1993868053,9fa4801860bd87949be22281c865c798:-1505651880</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 08:09:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>018eb6a75ba542f0918f5b60eb2a6190</sys_id>
+        <sys_metadata>4fa4801883bd8794809759d0deaad310</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Auto Assign Incident</sys_name>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_scope_delete display_value="">1509d4d0bb4a40f2b8b4064eabf266a4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_4fa4801883bd8794809759d0deaad310</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_4fa4801883bd8794809759d0deaad310">edb4041883bd8794809759d0deaad3d4</sys_update_version>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 08:09:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

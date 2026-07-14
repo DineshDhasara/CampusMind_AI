@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="4fe1025c4d7dc79419f4ea693d2d245d" sys_domain="global" table="sysapproval_approver" version="3" view="custom_portal_approval_x_1971597_campus_0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>0</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 17:08:20</sys_created_on>
+            <sys_id>cfe1025c207dc794ee622fcbc729a75c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="cbe1025c027dc7948614fabc1d8d255c">4fe1025c4d7dc79419f4ea693d2d245d</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 17:08:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sysapproval</element>
+            <position>1</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 17:08:20</sys_created_on>
+            <sys_id>87e1025c047dc7947a87033f89d3035d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="sysapproval_approver" sys_domain="global" view="cbe1025c027dc7948614fabc1d8d255c">4fe1025c4d7dc79419f4ea693d2d245d</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 17:08:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>sysapproval_approver</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 17:08:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fe1025c4d7dc79419f4ea693d2d245d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sysapproval_approver</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+            <sys_update_name>sys_ui_section_4fe1025c4d7dc79419f4ea693d2d245d</sys_update_name>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 17:08:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Custom portal (x_1971597_campus_0)" name="custom_portal_approval_x_1971597_campus_0">cbe1025c027dc7948614fabc1d8d255c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

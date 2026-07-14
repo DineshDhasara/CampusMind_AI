@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,timeFromCreateToActivate=2020000,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
+        <copied_from_name>FlowTemplate: Record Trigger</copied_from_name>
+        <description>Automatically sends email whenever a new incident is created.</description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>incident_email_notification</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛ Record","reference":"x_1971597_campus_0_incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"572f25e3-6a05-450e-8710-1c6bca12ebd3":["record"]},"attributes":{}}]</label_cache>
+        <master_snapshot>c2ab552883394b94809759d0deaad3a2</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Incident Email Notification</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>eabaeddc83b9c794809759d0deaad3f2</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:25:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>30f3116883f54b94809759d0deaad344</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Incident Email Notification</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sys_hub_flow_30f3116883f54b94809759d0deaad344</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 09:00:22</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>afcbd92883394b94809759d0deaad3b6</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=30f3116883f54b94809759d0deaad344"/>
+    <sys_variable_value action="delete_multiple" query="document_key=30f3116883f54b94809759d0deaad344"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1971597_campus_0_incident">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <published_version/>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 15:26:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eabaeddc83b9c794809759d0deaad3f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 15:26:57</sys_updated_on>
+        <table>x_1971597_campus_0_incident</table>
+        <trigger_definition/>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>30f3116883f54b94809759d0deaad344</identifier>
+        <identifier_type>flow</identifier_type>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:59:37</sys_created_on>
+        <sys_id>1aab952883394b94809759d0deaad30e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:37</sys_updated_on>
+        <trigger display_value="">eabaeddc83b9c794809759d0deaad3f2</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=30f3116883f54b94809759d0deaad344^sys_idNOT IN1aab952883394b94809759d0deaad30e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=30f3116883f54b94809759d0deaad344"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=30f3116883f54b94809759d0deaad344^sys_idNOT IN74f3116883f54b94809759d0deaad35e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>30f3116883f54b94809759d0deaad344</id>
+        <name>Incident Email Notification</name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:25:55</sys_created_on>
+        <sys_id>74f3116883f54b94809759d0deaad35e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:25:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=74f3116883f54b94809759d0deaad35e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=30f3116883f54b94809759d0deaad344^sys_idNOT IN01f3116883f54b94809759d0deaad369,81f3116883f54b94809759d0deaad371"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Incident Email Notification">30f3116883f54b94809759d0deaad344</model>
+        <model_id>30f3116883f54b94809759d0deaad344</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_30f3116883f54b94809759d0deaad344</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:25:56</sys_created_on>
+        <sys_id>01f3116883f54b94809759d0deaad369</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=01f3116883f54b94809759d0deaad369"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Incident Email Notification">30f3116883f54b94809759d0deaad344</model>
+        <model_id>30f3116883f54b94809759d0deaad344</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_30f3116883f54b94809759d0deaad344</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:25:56</sys_created_on>
+        <sys_id>81f3116883f54b94809759d0deaad371</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=81f3116883f54b94809759d0deaad371"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=30f3116883f54b94809759d0deaad344"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=30f3116883f54b94809759d0deaad344"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=30f3116883f54b94809759d0deaad344^sys_idNOT IN0df3116883f54b94809759d0deaad3dc"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Incident Email Notification">30f3116883f54b94809759d0deaad344</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:25:56</sys_created_on>
+        <sys_id>0df3116883f54b94809759d0deaad3dc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:35</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VY2W7jNhT9FUFPLZABJMu2rLxNnRQNkGZax9M+BClBUaQtVKY8EqXEM8i/91JbZG3xlkaZeTEgkibPPffchbz7porAXSxocMVDgTmht5vwylHPVTy2MBlPLNMcGpqua4ZODdsg46E9wpaFDfVM9bBNPVg6x7ZH4dvlggYce/PNmsKwkMOI45WcW2HuYOEHG/VcBBE9U1ngr+Z0tfawgMUMeyEM+oFDA/VcP1OTv2V7wN9j7EXy+xHplqmPLBMRvFpHIdKQy4nrUC5gleOGsN/mr2wxjKxxABsJuek3lSxdzwkoV8/v7s9UASjRlgnKTYrVlfYTRrA1oBoxdGMw0LTBZKjbY8PWB46BqaY12F/BLBpoeDaQPgrKHeoUttcYCih2PnFvU6xYAsGpWSv8GLpfYfeJJtcxClaRzOTiE2V0pMNk6buEfloL1+fpSIoznfS9aMVvUvySSMpw5IkSkVEI+9G1hCxBZIjY7dJ/mOUH/uryxLps0vMJ9oovLEBodiRoKF3BXA+cglJuQj8KEvSzy+mn2QX6++N8+tvlDM0ub+ezq+n88kJ9SuxCXyK5Y4oww4JSc2BBSAJ3LT4S4ca5op7OTqHvqc8dN+GtpnGST4VlTCURlLyac9YlfE0rZERKp+by/+fyz7rM08FdlT4tI06UPh5j7FDconSbtTDRAFM0kFK2rEvz2cguoh9q2hvJPktdh6p+5TvUuyirJNUm5LB1JCRbD5iLEAkfYcdBJR7lUsD0Uhiktr1mLAQRh6NQ4cl6RCSEF8xfuyEYegcRf0u/RKm7PkD6YznJCTZYzq6zE2YRV3xQAPwoJAqAY6Hk0cSuVniRuYb9kSs+4TaTY4wDhFYo3IRoGdloi2BkWhNLH7cp3SRbhCYxB1vfqep9fRyt8Foe2wn46UmKhXqUiJLo2eew/PW7G4YuX5S81EZVIoEaU8WZEEtK7pcUQNhvyjqRH8Ld/TH5tq7suCLRSt7tEurO2TiPliQT6zpjNmUDzZRUQxzaTNdMbYSZY2gaGXTGYasZohKYr5KR98vHYZISvB0ivuqDHLyME2+fOIi3gyjbZ/B0X6T9aQ+hVcqXsVf9KnSbDl/sLt8Td3vYiWW5cXYtY69ewZjnP0CCO7562Zj8uwj8iDvVxCyPUFyuPK9Qfsoc8XOf03In7hMXNOYHtJu97RV956yE9k3K17Os85SC+aZeuNLBw0qUwXTbokOqQWUyoCjZI8uyCR4wZo5NOtBbA60R5rsoTS9EctyUCtpqQaOu46Zw2KNAvT3Ao8pUptHGIpXOfe/l6GFJOQIjA+TJglOrSgvPdWg+d1yKqB0VP192D38+u85gS9vZxCIj3TSJCSkWMgQbUhvrwwFYbo6Nyegl27vAigY+/pcHBllRJJCW7PE5nerXG1s/ZR5SIWTNO7r14nDLSbbAKdpSByH9qyTZzA+UG59/uHpep9xSKLrJc1Uv+4mdsJ+4D9uFRilx5b3y2Ar+xETavljWWlk4/xcY3zpfXgRbnNvrR5v9jXmTRriSaeJt9zS84xzipAPfeOhwMrKY0VwemdWdM9tt7H0rvWNSjlvTe1PLumuKihszXdHCVpvgA9RQ0Vi2tfFC+/7jknLUlSEP5NaHrUPA/hDtV9JNn7AHk+Ap8lm56l34CkwocKbiMiUDTx3F3ihiScE3Hlwy4XxFgultudvTihN3EnVWi6h+x5zuZcOJGU2fEmqtGQwr2c2ul5TVcL5dQ1XJHZ1vjA30HtYvUcfEo5HR8pxgVR8cm4C+YEfvO6e982nclJ47O4X99q3u2dgrlDy/rZQdW6Pv2OpXey5tQNHTrub+P24lKKJ6KAAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=30f3116883f54b94809759d0deaad344^sys_idNOT IN8f37996083f54b94809759d0deaad31c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Incident Email Notification">30f3116883f54b94809759d0deaad344</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:40:16</sys_created_on>
+        <sys_id>8f37996083f54b94809759d0deaad31c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:35</sys_updated_on>
+        <ui_id>572f25e3-6a05-450e-8710-1c6bca12ebd3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1YUU/jOBD+K1aeuyVtaUt5WhaEFulYpKXa02lZRY7tND6cOGs7QA/x32+cOE1Ct6W0PbQn8UbG9sw3M983tfn+6HHqHXuH9MgfhdEhHvuD/sD3j/qTSTiYRP7ReOL3CPU6XooTBjsVI1LZ7zsscmt4fDxVDBtGg16X5Eqx1Dw9wTrlOhN4/s1tAwuJuaCw7h1//9HxMqzAo2HKO358tmTmGQsEDpmAg2eS5Ak4RRdn4GNTtNXpKVYzZtDXCvXzLGwo+KYuSMCtEZYsLL/jsQfDUsogaISFZh0vwSnFRqr5wgLJ06tU1IaYpwZcnmgtCYfCaGRihliCuUD33MQIozJ817P+HjT/ByAM+tZVxKAIxCLiKeEUEHkNc+BqCssX9TKJJSfsKjNcpmWhDQ5FVXMp8iT9UmZtu8IinAvT6EquwS/LbJoWt1E55BBdx/L+axX3nKdFQVyCQhIsFl/YGMXDHPIsGikYVrW/oIBkfUIkJlhR4wRnGU9nQabkHS8cA8ykOxPw0Y2EvIfzms/SLiY2py4UHHfPwX5WmL9hxW2Cl+AGDj8VBQp+5hZTmWI7uN0bFH2HrZoonpkTcHzHXApPHSeC3mQdrehhTZ+Gz1oID0FvMu4NJ+OA4CTLdeAHjSbuSw5TGxp9KUNvCrt1eEUaTgktmxNCbychTIH9ppRhyXtkHIwF+Y/8NvlXkH7vZHdAt2b7f8No6KsOSqK63IrgLzL9JX77o1EYjsLheFATZUIiOg6jER6TQU2MexhbKsHqNijGVoPkvWUqO3VvSWc4fHBepNfZGGV1GIagyClDf1Zw12Xg+B1KCSMqrcnd34ncJRORkQh6J+Yw2xeRrbGe/CbGBnGNNLSri6YScQe+caKD5jJHSa4NbDOw0pJN6+fi8E0U41rrrGe/7Pv/QlK7Sme4fsbimng4DoxsCIbylOmYxliDIj7OLBe6kMiyjFZv3E5Z11DVdFapaoMEFpKUy9k48ejKp9POYL12yrvEknQaY99/H/ytwU+Z4Akvmlvqa1fi0rV9Z36r1YQ0iLvHO0ubihtAqg6eni7jW0HFw+3G+DsX346LvbXPNjZq9Tp8GzJugKk6+OkZG8N1dBy+0/F3p+NwfetJq9k6D/9mxDQoeVo88i6hMOjkAn1A1YscXech4DSMwl+EMK2jXECLlxj8egd7uQi8nPXi4CLnX9VhBfFH71eC3+niite2O+q3J5qk8wbDb3LfH5AMWYQfDE/nCWFKShNCGW6LRXrj3ZTb2GcmhOyURw6y0naTvsrFXzJXqPqXCYKLMAoZS+3rh0FmFOmGGro7RbqCQDrPMqkMMgwnRTANry0rOmicDQM9tM8xBfF/5kyb3SJOY5zeWn+uRKEq7e0hcO0wTQFTO9zy+HDhN6j+/qq7/+qtqg46eHV9tpuOn6eXf1SzcQOxLC4DpVSWtOOmYmwSUc/E8Y6XgdFwOBi9T8XmbSC7p32qZJa53Ha6Efz4F/7PAAAHGQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=8f37996083f54b94809759d0deaad31c"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=30f3116883f54b94809759d0deaad344"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=30f3116883f54b94809759d0deaad344"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=30f3116883f54b94809759d0deaad344"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=30f3116883f54b94809759d0deaad344"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_30f3116883f54b94809759d0deaad344</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:25:56</sys_created_on>
+        <sys_id>0df3116883f54b94809759d0deaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:25:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_30f3116883f54b94809759d0deaad344</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:25:56</sys_created_on>
+        <sys_id>81f3116883f54b94809759d0deaad36e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:25:56</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_30f3116883f54b94809759d0deaad344"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_30f3116883f54b94809759d0deaad344"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=diagramming</attributes>
+        <authored_on_release_version>29000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>049a0e497743011031e3b3c64b5a9996</copied_from>
+        <copied_from_name/>
+        <description>Automatically sends email whenever a new incident is created.</description>
+        <flow_priority/>
+        <internal_name>incident_email_notification</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛ Record","reference":"x_1971597_campus_0_incident","reference_display":"Incident","type":"reference","base_type":"reference","usedInstances":{"572f25e3-6a05-450e-8710-1c6bca12ebd3":["record"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Incident Email Notification</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Incident Email Notification">30f3116883f54b94809759d0deaad344</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:59:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2ab552883394b94809759d0deaad3a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:36</sys_updated_on>
+        <type>flow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c2ab552883394b94809759d0deaad3a2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c2ab552883394b94809759d0deaad3a2"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c2ab552883394b94809759d0deaad3a2"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c2ab552883394b94809759d0deaad3a2^sys_idNOT IN46ab552883394b94809759d0deaad3a3"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c2ab552883394b94809759d0deaad3a2</id>
+        <name>Incident Email Notification</name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:59:36</sys_created_on>
+        <sys_id>46ab552883394b94809759d0deaad3a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=46ab552883394b94809759d0deaad3a3"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c2ab552883394b94809759d0deaad3a2^sys_idNOT IN52ab552883394b94809759d0deaad3b6,caab552883394b94809759d0deaad3a4"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Incident Email Notification">c2ab552883394b94809759d0deaad3a2</model>
+        <model_id>c2ab552883394b94809759d0deaad3a2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c2ab552883394b94809759d0deaad3a2</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:59:36</sys_created_on>
+        <sys_id>52ab552883394b94809759d0deaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=52ab552883394b94809759d0deaad3b6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Incident Email Notification">c2ab552883394b94809759d0deaad3a2</model>
+        <model_id>c2ab552883394b94809759d0deaad3a2</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c2ab552883394b94809759d0deaad3a2</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_only_option/>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:59:36</sys_created_on>
+        <sys_id>caab552883394b94809759d0deaad3a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=caab552883394b94809759d0deaad3a4"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c2ab552883394b94809759d0deaad3a2"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c2ab552883394b94809759d0deaad3a2"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=c2ab552883394b94809759d0deaad3a2^sys_idNOT IN9eab552883394b94809759d0deaad3f1"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Incident Email Notification">c2ab552883394b94809759d0deaad3a2</flow>
+        <generation_source/>
+        <name>Created</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:59:37</sys_created_on>
+        <sys_id>9eab552883394b94809759d0deaad3f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:37</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs>H4sIAAAAAAAA/+VY2W7jNhT9FUFPLZABJMu2rLxNnRQNkGZax9M+BClBUaQtVKY8EqXEM8i/91JbZG3xlkaZeTEgkibPPffchbz7porAXSxocMVDgTmht5vwylHPVTy2MBlPLNMcGpqua4ZODdsg46E9wpaFDfVM9bBNPVg6x7ZH4dvlggYce/PNmsKwkMOI45WcW2HuYOEHG/VcBBE9U1ngr+Z0tfawgMUMeyEM+oFDA/VcP1OTv2V7wN9j7EXy+xHplqmPLBMRvFpHIdKQy4nrUC5gleOGsN/mr2wxjKxxABsJuek3lSxdzwkoV8/v7s9UASjRlgnKTYrVlfYTRrA1oBoxdGMw0LTBZKjbY8PWB46BqaY12F/BLBpoeDaQPgrKHeoUttcYCih2PnFvU6xYAsGpWSv8GLpfYfeJJtcxClaRzOTiE2V0pMNk6buEfloL1+fpSIoznfS9aMVvUvySSMpw5IkSkVEI+9G1hCxBZIjY7dJ/mOUH/uryxLps0vMJ9oovLEBodiRoKF3BXA+cglJuQj8KEvSzy+mn2QX6++N8+tvlDM0ub+ezq+n88kJ9SuxCXyK5Y4oww4JSc2BBSAJ3LT4S4ca5op7OTqHvqc8dN+GtpnGST4VlTCURlLyac9YlfE0rZERKp+by/+fyz7rM08FdlT4tI06UPh5j7FDconSbtTDRAFM0kFK2rEvz2cguoh9q2hvJPktdh6p+5TvUuyirJNUm5LB1JCRbD5iLEAkfYcdBJR7lUsD0Uhiktr1mLAQRh6NQ4cl6RCSEF8xfuyEYegcRf0u/RKm7PkD6YznJCTZYzq6zE2YRV3xQAPwoJAqAY6Hk0cSuVniRuYb9kSs+4TaTY4wDhFYo3IRoGdloi2BkWhNLH7cp3SRbhCYxB1vfqep9fRyt8Foe2wn46UmKhXqUiJLo2eew/PW7G4YuX5S81EZVIoEaU8WZEEtK7pcUQNhvyjqRH8Ld/TH5tq7suCLRSt7tEurO2TiPliQT6zpjNmUDzZRUQxzaTNdMbYSZY2gaGXTGYasZohKYr5KR98vHYZISvB0ivuqDHLyME2+fOIi3gyjbZ/B0X6T9aQ+hVcqXsVf9KnSbDl/sLt8Td3vYiWW5cXYtY69ewZjnP0CCO7562Zj8uwj8iDvVxCyPUFyuPK9Qfsoc8XOf03In7hMXNOYHtJu97RV956yE9k3K17Os85SC+aZeuNLBw0qUwXTbokOqQWUyoCjZI8uyCR4wZo5NOtBbA60R5rsoTS9EctyUCtpqQaOu46Zw2KNAvT3Ao8pUptHGIpXOfe/l6GFJOQIjA+TJglOrSgvPdWg+d1yKqB0VP192D38+u85gS9vZxCIj3TSJCSkWMgQbUhvrwwFYbo6Nyegl27vAigY+/pcHBllRJJCW7PE5nerXG1s/ZR5SIWTNO7r14nDLSbbAKdpSByH9qyTZzA+UG59/uHpep9xSKLrJc1Uv+4mdsJ+4D9uFRilx5b3y2Ar+xETavljWWlk4/xcY3zpfXgRbnNvrR5v9jXmTRriSaeJt9zS84xzipAPfeOhwMrKY0VwemdWdM9tt7H0rvWNSjlvTe1PLumuKihszXdHCVpvgA9RQ0Vi2tfFC+/7jknLUlSEP5NaHrUPA/hDtV9JNn7AHk+Ap8lm56l34CkwocKbiMiUDTx3F3ihiScE3Hlwy4XxFgultudvTihN3EnVWi6h+x5zuZcOJGU2fEmqtGQwr2c2ul5TVcL5dQ1XJHZ1vjA30HtYvUcfEo5HR8pxgVR8cm4C+YEfvO6e982nclJ47O4X99q3u2dgrlDy/rZQdW6Pv2OpXey5tQNHTrub+P24lKKJ6KAAA</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=c2ab552883394b94809759d0deaad3a2^sys_idNOT INdaab552883394b94809759d0deaad3ef"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>c1806bf4a70323008299b39f087901cb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Incident Email Notification">c2ab552883394b94809759d0deaad3a2</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:59:36</sys_created_on>
+        <sys_id>daab552883394b94809759d0deaad3ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:36</sys_updated_on>
+        <ui_id>572f25e3-6a05-450e-8710-1c6bca12ebd3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2YXW/iOBSG/4qVa4YGKFB6tV2qaiq1U2lAs1pNR5FjO8RbJ87YTjts1f++x4lDArQMDKy21faO+Ou85/h97ISvjx6n3ql3TE/8QRgd46Hf6/Z8/6Q7GoW9UeSfDEd+h1Cv5aU4YTBSMSKVfb7HIrcNj49jxbBhNOi0Sa4US83TE/RTrjOB51/cMGghMRcU+r3Tr99aXoYVrGiY8k4fV7q2lSRwyAQMnWI1YwZ9rqStSjXzzD5TSfIE5AW8arxyC5y7HnR5Dj0wyaryWx77YVhKGciJsNCs5SU4pdhINV+0QO70JhV1Q8xTA0ueaS0Jh7poZGKGWIK5QA/cxAijUljbs+v90PxvENfr2qUiBjUgVitPCaegyGs0B66k0H1Zd0fn2OCJUTkxuVpUWnLCdFlNyiKcCzNutpUDbjLDZVpOMTgU1Wwp8iT9VBbRWyzQ2MlcgxiW2drYZCE4JB5NYvnwuRJ7wdOiiq4qQhIsFk/RhGFF4gvOhN3qNE9CGNvysDGKh7mxMsEUAkbVcYJCqo0FI5lgxVYmOMt4OgsyJe95ERDkJ+2ZgId2JOQDzNd8lrYxsbm2Yfdw+wLaz4vmL1hxm/g1LAOTn1qenuuxwFrX6UP9g++5VV8WY1mOnR0UhrOTieKZOYNQ98wl+9RyiHVGm/xMj2vfNtasMfsRdEbDTn80DAhOslwHftDwyL6wbSGuhs0a5XmxDrS1tqvmXPSp7HCYdXbErDSbo2wKaJmS/hIqZJy8BVkn/jJZLxD1Okha8LE1SsvI/DtYgEl0UHrb5VYE/wVcfgaJPxiE4SDsD3u1D0ckosMwGuAh6dW+e4CjVSVY3QXF0dogpbPOgzs0dmNiCy0VE3Aci5wy9EclapNOB0koJZxv6SohoPTooqjugpDuXhdRaU1kJILNFHO4fhaSbGN9OZkYG8Q10rBbbTSViLusGjNaaC5zlOTawDADPUvwLd1ox6+XO2cH13r+rFfeBJiHB7C/+SLAtbFxHBjZwI7ylOmYxlgDV7/NrKXakNo6jC8P3I3PLaQu7iy5rtthqGGX0tkKhZOq0RHY20xgeSWtAdi4gvzXC8Nb8boVLnjCC0OUlB7e/nSjp5i/ZCNCGvY/wEvYFsErQ4/H60p2MfTxr10p745+c47ubPyMZoMlH4WHtvQW0StL/77i6XBnU/ffTf0/MXV/s63IkpF0Hv7FiGkYe1x8QV9DqdDZJfqAqn9T0CQPQblhFH4R2DYd5QKcssbB7gvs+Grz8/wqbCaL7J7LeBd8Bu8vOf85PYdHBW+0UtRdPnMlnTc4uc19v0cyZDV/MDydJ4QpKU0IhbkrOumtd1sOYx+ZELJVTjnKyrbbdKcl/pS5QtW/Wgg+EFDIWGo/LhlkRpFuMNXeK9INBNJ5lkllkGE4KYJp+Ji16MJW2jCwq/ZrV0H87znTZr+I0xind3Y9V6JQle3LR8nEaZqCpuVw64eQC79F9Q9X3cNX76XqoKOd67PbGbsFGItXkxKLNU7c6RqbRKycrR+n11f1yTrc88Vk0O/3Bu9n695vJtkD7VIls8zlduC3k2//AN09bM5OGwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=daab552883394b94809759d0deaad3ef"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=c2ab552883394b94809759d0deaad3a2"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=c2ab552883394b94809759d0deaad3a2"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c2ab552883394b94809759d0deaad3a2"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c2ab552883394b94809759d0deaad3a2"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c2ab552883394b94809759d0deaad3a2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:59:36</sys_created_on>
+        <sys_id>5eab552883394b94809759d0deaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c2ab552883394b94809759d0deaad3a2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:59:36</sys_created_on>
+        <sys_id>96ab552883394b94809759d0deaad3b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c2ab552883394b94809759d0deaad3a2"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c2ab552883394b94809759d0deaad3a2"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>30f3116883f54b94809759d0deaad344</sys_id>
+        <latest_snapshot>c2ab552883394b94809759d0deaad3a2</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=30f3116883f54b94809759d0deaad344^sys_idNOT INdeab952883394b94809759d0deaad30f"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>30f3116883f54b94809759d0deaad344</plan_id>
+        <snapshot>c2ab552883394b94809759d0deaad3a2</snapshot>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 08:59:37</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>deab952883394b94809759d0deaad30f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 08:59:37</sys_updated_on>
+        <trigger display_value="">eabaeddc83b9c794809759d0deaad3f2</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=30f3116883f54b94809759d0deaad344"/>
+</record_update>

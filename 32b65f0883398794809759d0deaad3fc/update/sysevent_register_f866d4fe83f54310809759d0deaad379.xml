@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <derived_priority>100</derived_priority>
+        <description/>
+        <event_name>x_1971597_campus_0.test.event</event_name>
+        <fired_by/>
+        <priority>100</priority>
+        <queue/>
+        <suffix>test.event</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-07-04 03:43:56</sys_created_on>
+        <sys_id>f866d4fe83f54310809759d0deaad379</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1971597_campus_0.test.event</sys_name>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sysevent_register_f866d4fe83f54310809759d0deaad379</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-07-04 03:43:56</sys_updated_on>
+        <table>x_1971597_campus_0_campus_incident</table>
+    </sysevent_register>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Task table schema" source="com.glide.task">07e45024f54003100a22c0b3dfa151f4</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 15:07:05</sys_created_on>
+        <sys_id>5dcfa26c83b18b94809759d0deaad38b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 15:07:05</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.text_index_translations=true,allow_data_replicate=true,display_image=photo,global_search_config_handler=UserConfig,ih_process_sync_enabled=true,iterativeDelete=true,kagami_csindex_enabled=true,metadata_link_exempt=true,ref_ac_columns=email,ref_ac_columns_search=true,ref_ac_order_by=name,ref_auto_completer=AJAXTableCompleter,slushbucket_omit_embedded=true" create_roles="user_admin" db_object_id="6fa3d820f50003100a22c0b3dfa151d1" defaultsort="-1" dynamic_creation_script="dynamicUserCreation(current, value);" label="User" max_length="40" name="sys_user" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="927623bam021" max_length="40" name="x_1971597_campus_0_u_927623bam021" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="927623bam016" max_length="40" name="x_1971597_campus_0_u_927623bam016" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Registration Number" max_length="40" name="x_1971597_campus_0_registration_number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="927623bam017" max_length="40" name="x_1971597_campus_0_u_927623bam017" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="927623bam037" max_length="40" name="x_1971597_campus_0_u_927623bam037" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="927623bam008" max_length="40" name="x_1971597_campus_0_u_927623bam008" type="string"/>
+    </element>
+</database>

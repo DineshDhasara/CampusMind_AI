@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="5dfda74883f98794809759d0deaad3dc" label="Incident" max_length="40" name="x_1971597_campus_0_incident" type="collection">
+        <element choice="3" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Critical" sequence="3" value="critical"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="medium"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="low"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="high"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Assignment Group" max_length="32" name="assignment_group" reference="sys_user_group" type="reference"/>
+        <element label="Department" max_length="32" name="department" reference="x_1971597_campus_0_department" type="reference"/>
+        <element label="Short Description" max_length="40" name="short_description" type="string"/>
+        <element display="true" label="Incident Number" max_length="40" name="incident_number" type="string"/>
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element label="Room" max_length="32" name="room" reference="x_1971597_campus_0_room" type="reference"/>
+        <element label="Building" max_length="32" name="building" reference="x_1971597_campus_0_building" type="reference"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+                <element inactive_on_update="false" label="On Hold" sequence="2" value="on_hold"/>
+                <element inactive_on_update="false" label="Resolved" sequence="3" value="resolved"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+            </choice>
+        </element>
+        <element label="Reported By" max_length="32" name="reported_by" reference="x_1971597_campus_0_campus_user" type="reference"/>
+        <index name="index">
+            <element name="assignment_group"/>
+        </index>
+        <index name="index2">
+            <element name="building"/>
+        </index>
+        <index name="index3">
+            <element name="department"/>
+        </index>
+        <index name="index4">
+            <element name="reported_by"/>
+        </index>
+        <index name="index5">
+            <element name="room"/>
+        </index>
+    </element>
+</database>

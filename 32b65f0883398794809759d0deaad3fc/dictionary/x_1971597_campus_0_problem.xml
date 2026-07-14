@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="e5daf704837d8794809759d0deaad373" label="Problem" max_length="40" name="x_1971597_campus_0_problem" type="collection">
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Resolved" sequence="3" value="resolved"/>
+                <element inactive_on_update="false" label="Under Investigation" sequence="1" value="under_investigation"/>
+                <element inactive_on_update="false" label="Known Error" sequence="2" value="known_error"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="Department" max_length="32" name="department" reference="x_1971597_campus_0_department" type="reference"/>
+        <element display="true" label="Problem Number" max_length="40" name="problem_number" type="string"/>
+        <element label="Root Cause" max_length="255" name="root_cause" type="string"/>
+        <element label="Related Asset" max_length="32" name="related_asset" reference="x_1971597_campus_0_asset" type="reference"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="related_asset"/>
+        </index>
+    </element>
+</database>

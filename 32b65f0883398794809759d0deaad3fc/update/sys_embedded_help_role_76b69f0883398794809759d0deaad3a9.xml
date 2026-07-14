@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>10</order>
+        <role display_value="x_1971597_campus_0.admin" name="x_1971597_campus_0.admin">bab69f0883398794809759d0deaad3a4</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 04:40:21</sys_created_on>
+        <sys_id>76b69f0883398794809759d0deaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>bab69f0883398794809759d0deaad3a4</sys_name>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sys_embedded_help_role_76b69f0883398794809759d0deaad3a9</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 04:40:21</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Additional Details">c7e1025c3a7dc794ee24188d52e2b049</macroponent>
+        <name>Fetch variables if catalog</name>
+        <preset/>
+        <required_translations>[ {
+  "code" : "",
+  "message" : "No additional details at this time.",
+  "comment" : ""
+} ]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+async function handler({
+    api,
+    event,
+    helpers,
+    imports
+}) {
+    var data = api.data.look_up_records_1.results;
+    var finalOutput = [];
+    data.forEach(function(element) {
+        if (element.sc_item_option._reference.value.displayValue) {
+            finalOutput.push({
+                'label': element.sc_item_option._reference.item_option_new.displayValue,
+                'value': {
+                    'type': 'string',
+                    'value': element.sc_item_option._reference.value.displayValue
+                }
+            });
+        }
+    });
+    if (finalOutput != "") {
+        api.setState('labelValue', finalOutput);
+    } else {
+        var emptylabel = await helpers.translate("No additional details at this time.");
+        var emptyvalue = "";
+        finalOutput.push({
+            'label': emptylabel,
+            'value': {
+                'type': 'string',
+                'value': emptyvalue
+            }
+        });
+        api.setState('labelValue', finalOutput);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 17:08:25</sys_created_on>
+        <sys_id>c3e1025c917dc79457df73c4df533849</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Fetch variables if catalog</sys_name>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sys_ux_client_script_c3e1025c917dc79457df73c4df533849</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 17:08:25</sys_updated_on>
+        <target/>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_applicability_m2m_screen">
+    <sys_ux_applicability_m2m_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applicability display_value="Public">47e1025c257dc794248035e49d93fa65</applicability>
+        <order>0</order>
+        <screen display_value="Login Default">c7e1025c717dc79416a3df9788a5bf58</screen>
+        <sys_class_name>sys_ux_applicability_m2m_screen</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 17:08:27</sys_created_on>
+        <sys_id>cbe1025c1d7dc794ada168efec453a58</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sys_ux_applicability_m2m_screen_cbe1025c1d7dc794ada168efec453a58</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 17:08:27</sys_updated_on>
+    </sys_ux_applicability_m2m_screen>
+</record_update>

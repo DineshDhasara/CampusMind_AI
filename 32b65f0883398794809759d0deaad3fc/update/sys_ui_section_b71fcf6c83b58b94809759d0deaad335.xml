@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="b71fcf6c83b58b94809759d0deaad335" sys_domain="global" table="x_1971597_campus_0_campus_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>97c972378371cb10809759d0deaad376</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>student_name</element>
+            <position>1</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>1fc972378371cb10809759d0deaad377</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>registration_number</element>
+            <position>2</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>d7c972378371cb10809759d0deaad378</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>student_email</element>
+            <position>3</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>93c972378371cb10809759d0deaad379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>4</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>5fc972378371cb10809759d0deaad379</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>incident_type</element>
+            <position>5</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>1bc972378371cb10809759d0deaad37a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>6</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>d3c972378371cb10809759d0deaad37b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>9fc972378371cb10809759d0deaad37b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>8</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>5bc972378371cb10809759d0deaad37c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>9</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>17c972378371cb10809759d0deaad37d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>department</element>
+            <position>10</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>5fc972378371cb10809759d0deaad396</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>building</element>
+            <position>11</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>1bc972378371cb10809759d0deaad397</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>room</element>
+            <position>12</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>d3c972378371cb10809759d0deaad398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>13</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>9fc972378371cb10809759d0deaad398</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>14</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>5bc972378371cb10809759d0deaad399</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>15</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>17c972378371cb10809759d0deaad39a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>16</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>dfc972378371cb10809759d0deaad39a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_1971597_campus_0_campus_incident.interaction_related_record.task</element>
+            <position>17</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>9bc972378371cb10809759d0deaad39b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_class_name</element>
+            <position>18</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>57c972378371cb10809759d0deaad39c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sla_due</element>
+            <position>19</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>13c972378371cb10809759d0deaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments_and_work_notes</element>
+            <position>20</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>dbc972378371cb10809759d0deaad39d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>REL.x_1971597_campus_0_campus_incident.REL:b9edf0ca0a0a0b010035de2d6b579a03</element>
+            <position>21</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>97c972378371cb10809759d0deaad39e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>22</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>53c972378371cb10809759d0deaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>escalated</element>
+            <position>23</position>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-07-07 18:11:10</sys_created_on>
+            <sys_id>1fc972378371cb10809759d0deaad39f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1971597_campus_0_campus_incident" sys_domain="global" view="Default view">b71fcf6c83b58b94809759d0deaad335</sys_ui_section>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-07-07 18:11:10</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1971597_campus_0_campus_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-27 17:24:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b71fcf6c83b58b94809759d0deaad335</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1971597_campus_0_campus_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+            <sys_update_name>sys_ui_section_b71fcf6c83b58b94809759d0deaad335</sys_update_name>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-27 17:24:04</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

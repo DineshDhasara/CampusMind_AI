@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="sp_portal" version="2" view="1">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <group_by_field/>
+            <list_id display_value="Service Portal - 1" name="sp_portal" related_list="NULL" sys_domain="global" view="f7eea4e1834ec750809759d0deaad394">b7ee28e1834ec750809759d0deaad3ca</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>m2m_sp_portal_search_source.sp_portal</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 18:33:49</sys_created_on>
+            <sys_id>bbee28e1834ec750809759d0deaad3cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 18:33:49</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <group_by_field/>
+            <list_id display_value="Service Portal - 1" name="sp_portal" related_list="NULL" sys_domain="global" view="f7eea4e1834ec750809759d0deaad394">b7ee28e1834ec750809759d0deaad3ca</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>m2m_sp_portal_knowledge_base.sp_portal</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 18:33:49</sys_created_on>
+            <sys_id>33ee28e1834ec750809759d0deaad3cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 18:33:49</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <group_by_field/>
+            <list_id display_value="Service Portal - 1" name="sp_portal" related_list="NULL" sys_domain="global" view="f7eea4e1834ec750809759d0deaad394">b7ee28e1834ec750809759d0deaad3ca</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>m2m_sp_portal_catalog.sp_portal</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 18:33:50</sys_created_on>
+            <sys_id>b7ee28e1834ec750809759d0deaad3cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 18:33:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <group_by_field/>
+            <list_id display_value="Service Portal - 1" name="sp_portal" related_list="NULL" sys_domain="global" view="f7eea4e1834ec750809759d0deaad394">b7ee28e1834ec750809759d0deaad3ca</list_id>
+            <order_by/>
+            <position>3</position>
+            <related_list>m2m_sp_portal_taxonomy.sp_portal</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 18:33:50</sys_created_on>
+            <sys_id>3fee28e1834ec750809759d0deaad3cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 18:33:50</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Service Portal - 1</calculated_name>
+            <filter/>
+            <name>sp_portal</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-12 18:33:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7ee28e1834ec750809759d0deaad3ca</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Service Portal - 1</sys_name>
+            <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+            <sys_update_name>sys_ui_related_sp_portal_1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-12 18:33:49</sys_updated_on>
+            <sys_user/>
+            <view display_value="1" name="1">f7eea4e1834ec750809759d0deaad394</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

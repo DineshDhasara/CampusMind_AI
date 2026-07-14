@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Campus Incident</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Campus Incident</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">4fe4d024f54003100a22c0b3dfa15116</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 15:07:05</sys_created_on>
+        <sys_id>ddcfa26c83b18b94809759d0deaad372</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Campus Incident</sys_name>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sys_wizard_answer_ddcfa26c83b18b94809759d0deaad372</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-27 15:07:05</sys_updated_on>
+        <table/>
+        <target_url>x_1971597_campus_0_campus_incident.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

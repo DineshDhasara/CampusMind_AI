@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7cb233c0833d8794809759d0deaad3de" label="Service Request" max_length="40" name="x_1971597_campus_0_service_request" type="collection">
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="Approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Rejected" sequence="4" value="rejected"/>
+                <element inactive_on_update="false" label="In Progress" sequence="2" value="in_progress"/>
+            </choice>
+        </element>
+        <element label="Description" max_length="255" name="description" type="string"/>
+        <element display="true" label="Request Number" max_length="40" name="request_number" type="string"/>
+        <element label="Department" max_length="32" name="department" reference="x_1971597_campus_0_department" type="reference"/>
+        <element choice="3" label="Service Type" max_length="40" name="service_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ID Card Request" sequence="6" value="id_card_request"/>
+                <element inactive_on_update="false" label="Transport Request" sequence="4" value="transport_request"/>
+                <element inactive_on_update="false" label="Library Request" sequence="2" value="library_request"/>
+                <element inactive_on_update="false" label="Grade Dispute" sequence="7" value="grade_dispute"/>
+                <element inactive_on_update="false" label="Placement Support" sequence="5" value="placement_support"/>
+                <element inactive_on_update="false" label="WiFi Issue" sequence="0" value="wifi_issue"/>
+                <element inactive_on_update="false" label="Classroom Issue" sequence="3" value="classroom_issue"/>
+                <element inactive_on_update="false" label="Hostel Complaint" sequence="1" value="hostel_complaint"/>
+            </choice>
+        </element>
+        <element label="Requested By" max_length="32" name="requested_by" reference="x_1971597_campus_0_campus_user" type="reference"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="requested_by"/>
+        </index>
+    </element>
+</database>

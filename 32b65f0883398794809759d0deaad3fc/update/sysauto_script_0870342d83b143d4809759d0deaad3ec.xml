@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>CampusMind AI - SLA Escalation</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as display_value="DINESH S">ce7e1444833d0794809759d0deaad31e</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month>1</run_month>
+        <run_period>1970-01-01 00:01:00</run_period>
+        <run_start>2026-06-30 08:58:20</run_start>
+        <run_time>1970-01-01 08:01:00</run_time>
+        <run_type>periodically</run_type>
+        <run_weekinmonth>1</run_weekinmonth>
+        <script><![CDATA[var sla = new GlideRecord("task_sla");
+
+sla.addQuery("task", "20c2fce283f10310809759d0deaad3b8");
+sla.query();
+
+while (sla.next()) {
+
+    gs.info("STEP 1 - SLA FOUND");
+
+    var incident = new GlideRecord("x_1971597_campus_0_campus_incident");
+
+    if (incident.get(sla.task)) {
+
+        gs.info("STEP 2 - INCIDENT FOUND");
+
+        if (!incident.escalated) {
+
+            gs.info("STEP 3");
+
+            incident.escalated = true;
+            incident.priority = 2;
+            incident.work_notes = "Escalated by Scheduled Script";
+
+            incident.update();
+
+            gs.info("STEP 4 UPDATED");
+
+            var email = incident.opened_by.getRefRecord().email;
+
+            if (email) {
+
+                gs.eventQueue(
+    "x_1971597_campus_0.test.event",
+    incident,
+    incident.number.toString(),
+    email
+);
+
+                gs.info("STEP 5 EVENT FIRED");
+            }
+        }
+    }
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-30 08:26:06</sys_created_on>
+        <sys_id>0870342d83b143d4809759d0deaad3ec</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>CampusMind AI - SLA Escalation</sys_name>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sysauto_script_0870342d83b143d4809759d0deaad3ec</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-07-04 18:37:02</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

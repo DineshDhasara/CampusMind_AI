@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Search Page">cfe1025ca47dc794b70710c8492e664b</macroponent>
+        <name>handle_pagination</name>
+        <preset/>
+        <required_translations>[ ]</required_translations>
+        <script><![CDATA[function handler({ api, event, helpers }) {
+	const props = api.context.props;
+	const fields = {
+		searchContextConfigId: props.searchContextConfigId,
+		searchTerm: props.searchTerm
+	};
+	const token = event.payload.paginationToken;
+	const params = {
+		searchFilters: props.searchFilters,
+		facetFilters: props.facetFilters,
+		disableSpellCheck: props.disableSpellCheck,
+		paginationToken: token
+	};
+	global.window.scrollTo(0, 0);
+	helpers.navigate.to('search', fields, params);
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-26 17:08:32</sys_created_on>
+        <sys_id>c3e1025ccf7dc7942e07fe253fbe914d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>handle_pagination</sys_name>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sys_ux_client_script_c3e1025ccf7dc7942e07fe253fbe914d</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-06-26 17:08:32</sys_updated_on>
+        <target/>
+        <type/>
+    </sys_ux_client_script>
+</record_update>

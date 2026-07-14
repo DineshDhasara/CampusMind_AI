@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="9c9e5b0883798794809759d0deaad3b7" label="Building" max_length="40" name="x_1971597_campus_0_building" type="collection">
+        <element label="Department" max_length="32" name="department" reference="x_1971597_campus_0_department" type="reference"/>
+        <element display="true" label="Building Name" max_length="40" name="building_name" type="string"/>
+        <element label="Building Code" max_length="40" name="building_code" type="string"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+    </element>
+</database>

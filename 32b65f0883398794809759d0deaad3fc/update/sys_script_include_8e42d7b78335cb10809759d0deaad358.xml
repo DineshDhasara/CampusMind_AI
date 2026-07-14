@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1971597_campus_0.GetUserRegNo</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetUserRegNo</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var GetUserRegNo = Class.create();
+GetUserRegNo.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    getUserInfo: function() {
+        var userId = this.getParameter('sysparm_user_id');
+        var gr = new GlideRecord('sys_user');
+        if (gr.get(userId)) {
+            var email = gr.getValue('email');
+            var regno = gr.getValue('x_1971597_campus_0_registration_number');
+            return email + '|' + regno;
+        }
+        return '|';
+    },
+    type: 'GetUserRegNo'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-07-07 19:59:42</sys_created_on>
+        <sys_id>8e42d7b78335cb10809759d0deaad358</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>GetUserRegNo</sys_name>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>sys_script_include_8e42d7b78335cb10809759d0deaad358</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-07-12 07:35:35</sys_updated_on>
+    </sys_script_include>
+</record_update>

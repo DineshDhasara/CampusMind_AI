@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="role" table="x_1971597_campus_0_campus_user" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>role</element>
+            <name>x_1971597_campus_0_campus_user</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 06:19:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>role</sys_name>
+            <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+            <sys_update_name>sys_choice_x_1971597_campus_0_campus_user_role</sys_update_name>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 06:19:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Student</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_campus_user</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 06:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 06:19:39</sys_updated_on>
+            <value>student</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Faculty</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_campus_user</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 06:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 06:19:39</sys_updated_on>
+            <value>faculty</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Resolver</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_campus_user</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 06:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 06:19:39</sys_updated_on>
+            <value>resolver</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Department Head</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_campus_user</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 06:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 06:19:39</sys_updated_on>
+            <value>department_head</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>role</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Admin</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_campus_user</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 06:19:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 06:19:39</sys_updated_on>
+            <value>admin</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

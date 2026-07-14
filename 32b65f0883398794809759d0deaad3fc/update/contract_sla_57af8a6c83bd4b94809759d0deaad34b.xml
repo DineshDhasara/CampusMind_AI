@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="contract_sla">
+    <contract_sla action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <adv_condition_type>none</adv_condition_type>
+        <cancel_condition table="x_1971597_campus_0_campus_incident">active=false^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </cancel_condition>
+        <collection>x_1971597_campus_0_campus_incident</collection>
+        <condition_class/>
+        <duration>1970-01-01 00:03:00</duration>
+        <duration_type/>
+        <enable_logging>false</enable_logging>
+        <flow display_value="Default SLA flow">828f267973333300e289235f04f6a7a3</flow>
+        <name>CampusMind AI - Incident Resolution SLA</name>
+        <pause_condition/>
+        <relative_duration_works_on>Task record</relative_duration_works_on>
+        <reset_action>cancel</reset_action>
+        <reset_condition/>
+        <resume_condition/>
+        <retroactive>false</retroactive>
+        <retroactive_pause>true</retroactive_pause>
+        <schedule display_value="24 X 7">7a9a7f85833d8f94809759d0deaad391</schedule>
+        <schedule_source>sla_definition</schedule_source>
+        <schedule_source_field/>
+        <set_start_to/>
+        <start_condition table="x_1971597_campus_0_campus_incident">active=true^EQ<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </start_condition>
+        <stop_condition table="x_1971597_campus_0_campus_incident">state=3^ORstate=4^ORstate=7^EQ<item display_value="Closed Complete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="3"/>
+            <item display_value="Closed Incomplete" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="4"/>
+            <item display_value="Closed Skipped" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </stop_condition>
+        <sys_class_name>contract_sla</sys_class_name>
+        <sys_created_by>dinesh_dhasara</sys_created_by>
+        <sys_created_on>2026-06-27 13:24:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>57af8a6c83bd4b94809759d0deaad34b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>CampusMind AI - Incident Resolution SLA</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+        <sys_update_name>contract_sla_57af8a6c83bd4b94809759d0deaad34b</sys_update_name>
+        <sys_updated_by>dinesh_dhasara</sys_updated_by>
+        <sys_updated_on>2026-07-03 11:07:39</sys_updated_on>
+        <target>resolution</target>
+        <timezone/>
+        <timezone_source>task.caller_id.time_zone</timezone_source>
+        <type>SLA</type>
+        <vendor/>
+        <when_to_cancel>on_condition</when_to_cancel>
+        <when_to_resume>on_condition</when_to_resume>
+        <workflow/>
+    </contract_sla>
+    <sys_translated_text action="delete_multiple" query="documentkey=57af8a6c83bd4b94809759d0deaad34b"/>
+</record_update>

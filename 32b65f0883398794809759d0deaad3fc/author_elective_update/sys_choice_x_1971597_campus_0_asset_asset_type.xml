@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="asset_type" table="x_1971597_campus_0_asset" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>asset_type</element>
+            <name>x_1971597_campus_0_asset</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:07</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>asset_type</sys_name>
+            <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+            <sys_update_name>sys_choice_x_1971597_campus_0_asset_asset_type</sys_update_name>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:07</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>asset_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Computer</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_asset</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:07</sys_updated_on>
+            <value>computer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>asset_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Laptop</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_asset</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:07</sys_updated_on>
+            <value>laptop</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>asset_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Printer</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_asset</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:07</sys_updated_on>
+            <value>printer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>asset_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Projector</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_asset</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:08</sys_updated_on>
+            <value>projector</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>asset_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Router</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_asset</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:08</sys_updated_on>
+            <value>router</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>asset_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Switch</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_asset</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:08</sys_updated_on>
+            <value>switch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>asset_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Smart Board</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_asset</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:08</sys_updated_on>
+            <value>smart_board</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>asset_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CCTV</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_asset</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:08</sys_updated_on>
+            <value>cctv</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>asset_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Biometric Device</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_asset</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:08</sys_updated_on>
+            <value>biometric_device</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>asset_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>UPS</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_asset</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:15:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:15:08</sys_updated_on>
+            <value>ups</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1971597_campus_0_problem" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_1971597_campus_0_problem" element="NULL" name="x_1971597_campus_0_problem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5adab740837d8794809759d0deaad385</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:18:09</sys_created_on>
+            <sys_id>dadab740837d8794809759d0deaad386</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:18:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_1971597_campus_0_problem" element="NULL" name="x_1971597_campus_0_problem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5adab740837d8794809759d0deaad385</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:18:09</sys_created_on>
+            <sys_id>52dab740837d8794809759d0deaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:18:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_1971597_campus_0_problem" element="NULL" name="x_1971597_campus_0_problem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5adab740837d8794809759d0deaad385</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:18:09</sys_created_on>
+            <sys_id>d6dab740837d8794809759d0deaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:18:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_1971597_campus_0_problem" element="NULL" name="x_1971597_campus_0_problem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5adab740837d8794809759d0deaad385</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:18:09</sys_created_on>
+            <sys_id>5edab740837d8794809759d0deaad387</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:18:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="x_1971597_campus_0_problem" element="NULL" name="x_1971597_campus_0_problem" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">5adab740837d8794809759d0deaad385</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:18:09</sys_created_on>
+            <sys_id>d2dab740837d8794809759d0deaad388</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:18:09</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1971597_campus_0_problem</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-26 07:18:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5adab740837d8794809759d0deaad385</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1971597_campus_0_problem</sys_name>
+            <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+            <sys_update_name>sys_ui_list_x_1971597_campus_0_problem_null</sys_update_name>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-26 07:18:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="incident_type" table="x_1971597_campus_0_campus_incident" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>incident_type</element>
+            <name>x_1971597_campus_0_campus_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-27 15:35:10</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>incident_type</sys_name>
+            <sys_package display_value="CampusMind AI" source="x_1971597_campus_0">32b65f0883398794809759d0deaad3fc</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CampusMind AI">32b65f0883398794809759d0deaad3fc</sys_scope>
+            <sys_update_name>sys_choice_x_1971597_campus_0_campus_incident_incident_type</sys_update_name>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-27 15:35:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Complaint</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_campus_incident</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-27 15:35:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-27 15:37:22</sys_updated_on>
+            <value>complaint</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Request</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_campus_incident</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-27 15:38:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-27 15:38:07</sys_updated_on>
+            <value>request</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Emergency</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_campus_incident</name>
+            <sequence>300</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-27 15:38:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-27 15:38:40</sys_updated_on>
+            <value>emergency</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>incident_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maintenance</label>
+            <language>en</language>
+            <name>x_1971597_campus_0_campus_incident</name>
+            <sequence>400</sequence>
+            <synonyms/>
+            <sys_created_by>dinesh_dhasara</sys_created_by>
+            <sys_created_on>2026-06-27 15:39:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>dinesh_dhasara</sys_updated_by>
+            <sys_updated_on>2026-06-27 15:39:30</sys_updated_on>
+            <value>maintenance</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

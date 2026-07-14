@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="70b7bb4c833d8794809759d0deaad3cf" label="Asset" max_length="40" name="x_1971597_campus_0_asset" type="collection">
+        <element label="Building" max_length="32" name="building" reference="x_1971597_campus_0_building" type="reference"/>
+        <element label="Asset Name" max_length="40" name="asset_name" type="string"/>
+        <element label="Room" max_length="32" name="room" reference="x_1971597_campus_0_room" type="reference"/>
+        <element choice="3" label="Asset Type" max_length="40" name="asset_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Switch" sequence="5" value="switch"/>
+                <element inactive_on_update="false" label="Projector" sequence="3" value="projector"/>
+                <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
+                <element inactive_on_update="false" label="CCTV" sequence="7" value="cctv"/>
+                <element inactive_on_update="false" label="UPS" sequence="9" value="ups"/>
+                <element inactive_on_update="false" label="Biometric Device" sequence="8" value="biometric_device"/>
+                <element inactive_on_update="false" label="Smart Board" sequence="6" value="smart_board"/>
+                <element inactive_on_update="false" label="Router" sequence="4" value="router"/>
+                <element inactive_on_update="false" label="Printer" sequence="2" value="printer"/>
+                <element inactive_on_update="false" label="Computer" sequence="0" value="computer"/>
+            </choice>
+        </element>
+        <element display="true" label="Asset ID" max_length="40" name="asset_id" type="string"/>
+        <element choice="3" label="Status" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available" sequence="0" value="available"/>
+                <element inactive_on_update="false" label="Damaged" sequence="3" value="damaged"/>
+                <element inactive_on_update="false" label="In Use" sequence="1" value="in_use"/>
+                <element inactive_on_update="false" label="Under Maintenance" sequence="2" value="under_maintenance"/>
+                <element inactive_on_update="false" label="Retired" sequence="4" value="retired"/>
+            </choice>
+        </element>
+        <element label="Department" max_length="32" name="department" reference="x_1971597_campus_0_department" type="reference"/>
+        <index name="index">
+            <element name="building"/>
+        </index>
+        <index name="index2">
+            <element name="department"/>
+        </index>
+        <index name="index3">
+            <element name="room"/>
+        </index>
+    </element>
+</database>
